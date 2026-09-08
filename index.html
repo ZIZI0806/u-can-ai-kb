@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>U can AI 知识库</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <button id="menuBtn" class="icon-btn" title="目录">☰</button>
+  <div class="brand" id="brandBtn">
+    <span class="logo">UC</span>
+    <div>
+      <h1>U can AI 知识库</h1>
+      <p id="genAt" class="sub">加载中…</p>
+    </div>
+  </div>
+  <div class="searchwrap">
+    <input id="search" type="search" placeholder="搜索标题 / 路径 / 摘要…（回车=全文搜索）" autocomplete="off">
+    <button id="fullBtn" class="toggle" title="全文搜索">全文</button>
+    <button id="clearBtn" class="ghost" title="清除搜索">清除</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <nav id="nav"></nav>
+  </aside>
+
+  <section class="listpane">
+    <div class="listhead">
+      <h2 id="listTitle">全部文档</h2>
+      <div class="listmeta">
+        <span id="listCount"></span>
+        <select id="sort">
+          <option value="default">默认</option>
+          <option value="words">字数</option>
+          <option value="mtime">更新</option>
+          <option value="title">标题</option>
+        </select>
+      </div>
+    </div>
+    <div id="list" class="list"><div class="spin">加载中…</div></div>
+  </section>
+
+  <section class="reader" id="reader">
+    <div class="reader-body" id="readerBody">
+      <div class="reader-head">
+        <div class="reader-title">
+          <h2 id="docTitle">选一篇开始读</h2>
+          <div class="docmeta" id="docMeta"></div>
+        </div>
+        <div class="reader-actions">
+          <button id="tocBtn" class="ghost" title="目录">目录</button>
+          <button id="copyBtn" class="ghost" title="复制文件路径">复制路径</button>
+          <button id="backBtn" class="ghost" title="返回列表">返回</button>
+        </div>
+      </div>
+      <div class="reader-main">
+        <div class="toc" id="toc"></div>
+        <article class="markdown" id="content"></article>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="assets/marked.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
