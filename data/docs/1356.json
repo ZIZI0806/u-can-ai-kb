@@ -1,0 +1,1 @@
+{"i":1356,"path":"upstream/zvec-grep/benchmarks/swe-qa-bench/datasets/sympy-26/instruction.md","title":"instruction","md":"Why does the abstract base class for N-dimensional arrays delegate object creation to the immutable dense storage implementation instead of providing its own initialization?\n"}

@@ -1,0 +1,1 @@
+{"i":1346,"path":"upstream/zvec-grep/benchmarks/swe-qa-bench/datasets/django-32/instruction.md","title":"instruction","md":"Why does the User model's unique constraint on the username field interact with Django's ORM transaction handling and what cascading effects would occur if this constraint were removed on an existing database with formset-based bulk operations?\n"}

@@ -1,0 +1,1 @@
+{"i":1355,"path":"upstream/zvec-grep/benchmarks/swe-qa-bench/datasets/streamlink-43/instruction.md","title":"instruction","md":"Why does the parameter that enables reduced-latency streaming mode in a platform-specific HLS stream implementation class's initialization affect HLS segment fetching performance and buffer management?\n"}

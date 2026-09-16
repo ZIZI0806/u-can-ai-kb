@@ -1,0 +1,1 @@
+{"i":1343,"path":"upstream/zvec-grep/benchmarks/swe-qa-bench/datasets/conan-27/instruction.md","title":"instruction","md":"Why does the method that checks if a repository has uncommitted changes implement its own exclusion filtering instead of using git's built‑in pathspec options?\n"}
